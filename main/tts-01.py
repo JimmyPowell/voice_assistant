@@ -5,7 +5,7 @@ headers = {
     'Authorization': f'Bearer {'sk-'}', # 注：在这里输入你的api key
     'Content-Type':'application/json'
 }
-# 请求地址,需要根据实际情况修改,如果你的中转站点支持tts，则直接将‘https://openai.com’替换为’https://your_dormin.com即可‘
+# 请求地址,需要根据实际情况修改,如果你的中转站点支持tts，则直接将'https://openai.com'替换为'https://your_dormin.com'即可
 url = "https://openai.com/v1/audio/speech"#这里的后缀不要修改！
 
 input_text = input("请输入需要转换成语音的文本: ")
